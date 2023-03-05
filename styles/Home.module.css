@@ -1,0 +1,207 @@
+/* .container{
+  background-color: red;
+} */
+.jumboBackground{
+  position: relative;
+  background-color: black;
+  text-align: center;
+  height: 60vh;
+}
+
+
+
+.jumboBackground::before{
+  content:'';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(../photos/roofpiping.jpeg);
+  /* background-position: top center; */
+  background-repeat: no-repeat ;
+  background-size: cover;
+  opacity: .5;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.counterBackground{
+  position: relative;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  opacity: .8;
+}
+
+
+/* .counterBackground::before{
+  content:'';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(../photos/roofpiping.jpeg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  opacity: .15;
+  font-size: 10px;
+} */
+
+
+
+.images{
+padding: 0;
+margin: 0;
+}
+
+
+.carousel{
+background-color: red;
+}
+
+
+/* .carousel_description{
+background-color: pink;
+} */
+
+.quotebutton {
+  background-color: blue;
+}
+
+.quotebutton:hover {
+  background-color: white;
+  transition: .4s all ease;
+}
+
+
+.services{
+  padding: 10px;
+}
+.services > div{
+  display: flex;
+}
+.services > div > svg{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  color: blue;
+}
+.services > div > p{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.imageContainer{
+  display: block;
+  position: absolute;
+  height: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 5px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+
+.imageContainer:hover{
+  border: 1px solid black;
+}
+
+.myImage{
+  border-radius: 10px;
+  transition: .5s ease;
+}
+
+.myImage:hover{
+  opacity: 0.8;
+}
+
+
+
+
+/* image grid change on hover */
+.currentImage {
+opacity: 1;
+transition: .25s ease-in;
+}
+
+.nextImage{
+  transition: .25s ease-in;
+  opacity: .2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectContainer{
+  padding: 0;
+  margin: 0;
+  /* margin-top: 60px; */
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: whitesmoke;
+  padding-top: 80px;
+  /* padding-bottom: 40px; */
+}
+
+
+.projectContainer > div{
+  padding: 0px;
+  margin: auto;
+  width: 80vw;
+  background-color:white;
+  border: 1px solid black;
+}
+
+
+.galleryRight{
+  padding: 0;
+  width: 50%;
+  /* background-color: black; */
+}
+
+
+
+@media screen and (max-width: 1500px) {
+
+
+
+  .projectContainer > div{
+    width: 90vw;
+  }
+
+
+
+
+  .galleryRight{
+    padding: 0;
+    width: 50%;
+  }
+
+
+  
+
+
+}

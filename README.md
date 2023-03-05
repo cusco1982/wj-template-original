@@ -1,2 +1,1 @@
-# wj-template-original
--nextjs
+# Portfolio-nextjs

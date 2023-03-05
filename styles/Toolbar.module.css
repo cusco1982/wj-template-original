@@ -1,0 +1,376 @@
+
+
+.navComponent{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    /* box-shadow: 0px 0px 10px 0px; */
+}
+
+.smallNavComp{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+
+
+
+
+.navContainer{
+
+    margin: 0 !important;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+
+
+    /* height: 100px; */
+    border-bottom: 1px solid blue;
+}
+
+.smallNavContainer{
+    margin: 0 !important;
+    padding: 0;
+    background-color: white;
+    transition: 1s ease;
+}
+
+
+
+
+
+
+
+
+
+.navbrand {
+    /* background-color: pink; */
+    margin: auto;
+    width: calc(100%/3);
+    
+}
+
+
+.navbrand div{
+    display: inline-block;
+    /* background-color: red; */
+
+}
+
+
+.brandLogo{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 1s ease-out;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid whitesmoke;
+}
+
+
+
+.smallLogo{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;    
+    transition: 1s ease-in;
+}
+
+
+.logoTitle{
+    color: white;
+    letter-spacing: -1px;
+    margin-left: 8px;
+}
+
+.smallLogoTitle{
+    color: black;
+    letter-spacing: -1px;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navlinks {
+    /* background-color: black; */
+    margin: auto;
+    padding: 0;
+    width: calc(100%/3);
+    transition: 1s ease-in-out;
+    text-transform: uppercase;
+}
+.navlinks div{
+    /* background-color: red; */
+    display: flex;
+}
+.navlinks div div{
+    /* background-color: white; */
+    margin: 2px;
+}
+.navlinks div div a{
+    font-weight: 500;
+    text-decoration: none;
+    /* background-color: black; */
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* transition: .5s all ease; */
+    border-bottom: 2px solid transparent;
+    /* border-radius: 15px; */
+    color: white;
+}
+.navlinks div div a:hover{
+    /* background-color: red; */
+    border-bottom: 2px solid white;
+}
+
+
+
+.smallNavLinks{
+    margin: auto;
+    padding: 0;
+    width: calc(100%/3);
+    transition: 1s ease-in-out;
+    text-transform: uppercase;
+}
+.smallNavLinks div{
+    display: flex;
+}
+.smallNavLinks div div{
+    margin: 2px;
+}
+.smallNavLinks div div a{
+    font-weight: 500;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* transition: .5s all ease; */
+    border-bottom: 2px solid transparent;
+    color: black;
+}
+.smallNavLinks div div a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+.phoneLink{
+    /* background-color: blue; */
+    margin: auto;
+    width: calc(100%/3);
+    
+
+}
+.phoneLink div{
+    text-align: right;
+    /* background-color: orange; */
+    padding-right: 40px;
+}
+.phoneLinkTag{
+    /* background-color: #617f97; */
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    transition: 0.2s ease-in;
+    color: white;
+    border: 1px solid blue;
+}
+.smallPhoneLinkTag{
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    transition: 0.2s ease-in;
+    color: black;
+    border: 1px solid transparent;
+}
+.phoneLinkTag:hover{
+    /* background-color: black; */
+    border: 1px solid whitesmoke;
+    color: white;
+}
+.phoneLink div a b{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.smallPhoneLinkTag:hover {
+    border: 1px solid blue;
+}
+.smallPhoneLinkTag b{
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.burgercolumn{
+    display: none;
+    /* background-color: white; */
+    /* border-left: 1px solid red; */
+}
+
+.burgerContainer{
+    /* background-color: blue; */
+    background-color: white;
+    margin: auto;
+    transition: 1s;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+/* .smallBurgerContainer{
+    background-color: blue;
+    margin: auto;
+    transition: 1s;
+    margin-right: 80px;
+} */
+
+.burgerContainerActive{
+    background-color: white;
+    margin: auto;
+    margin-right: 80px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='27' height='27' fill='currentColor' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    transition: 1s ease all;
+    /* background-attachment: fixed; */
+    background-position: center;
+    padding: 10px;
+
+}
+
+
+.burgerIcon{
+    background-color: white;
+    transition: 1s ease all;
+    border-radius: 8px;
+}
+
+.burgerIcon:hover{
+    cursor: pointer;
+}
+
+.burgerActive{
+    /* display: none; */
+    opacity: 0;
+    transition: 1s ease all;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+.offCanvasBody ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.offCanvasBody ul li{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.offCanvasBody ul li a{
+    text-decoration: none;
+}
+
+.active{
+
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1515px) {
+
+    /* .navbrand div{
+        background-color: orange;
+    } */
+
+
+    .navlinks{
+        /* display: none; */
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .smallNavLinks{
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    
+    .phoneLink{
+        display: none;
+    }
+
+    .burgercolumn{
+        display: flex;
+    }
+}
+
+
+
+@media (min-width: 1516px) and (max-width: 1700px) {
+
+
+    .navbrand{
+        width: 25%;
+    }
+
+    .navlinks {
+        width: 55%;
+        transition: 1s ease-in-out;
+    }
+    .smallNavLinks{
+        width: 55%;
+        transition: 1s ease-in-out;
+    }
+
+    .phoneLink{
+        width: 20%;
+    }
+}
