@@ -1,0 +1,2 @@
+# wj-template-original
+-nextjs
